@@ -1,0 +1,475 @@
+{
+  "shopName": "Sheeraz Battery & Scrap Traders",
+  "shopPhone": "0300-4829150",
+  "shopAddress": "Shop #14, Hall Road Battery Market, Lahore",
+  "products": [
+    {
+      "id": "prod-exide-tr1800",
+      "sku": "EX-TR1800",
+      "name": "Exide TR-1800 Tubular Solar",
+      "brand": "Exide",
+      "category": "Tubular",
+      "voltage": "12V",
+      "capacityAh": 185,
+      "purchasePrice": 41500,
+      "salePrice": 46500,
+      "stockQty": 14,
+      "minStockAlert": 5,
+      "location": "Rack A-1",
+      "warrantyMonths": 18
+    },
+    {
+      "id": "prod-ags-gx135",
+      "sku": "AGS-GX135",
+      "name": "AGS GX-135 Heavy Duty",
+      "brand": "AGS",
+      "category": "Lead-Acid Auto",
+      "voltage": "12V",
+      "capacityAh": 110,
+      "purchasePrice": 23500,
+      "salePrice": 26800,
+      "stockQty": 22,
+      "minStockAlert": 6,
+      "location": "Rack A-2",
+      "warrantyMonths": 12
+    },
+    {
+      "id": "prod-phx-tx2500",
+      "sku": "PHX-TX2500",
+      "name": "Phoenix TX-2500 Tall Tubular",
+      "brand": "Phoenix",
+      "category": "Solar Deep Cycle",
+      "voltage": "12V",
+      "capacityAh": 230,
+      "purchasePrice": 48000,
+      "salePrice": 54000,
+      "stockQty": 8,
+      "minStockAlert": 4,
+      "location": "Rack B-1",
+      "warrantyMonths": 24
+    },
+    {
+      "id": "prod-osk-platinum100",
+      "sku": "OSK-PT100",
+      "name": "Osaka Platinum P-100S Dry",
+      "brand": "Osaka",
+      "category": "Dry / MF",
+      "voltage": "12V",
+      "capacityAh": 80,
+      "purchasePrice": 18200,
+      "salePrice": 21000,
+      "stockQty": 4,
+      "minStockAlert": 6,
+      "location": "Rack B-3",
+      "warrantyMonths": 12
+    },
+    {
+      "id": "prod-daewoo-din65",
+      "sku": "DW-DIN65",
+      "name": "Daewoo DIN-65 Maintenance Free",
+      "brand": "Daewoo",
+      "category": "Dry / MF",
+      "voltage": "12V",
+      "capacityAh": 65,
+      "purchasePrice": 19500,
+      "salePrice": 22800,
+      "stockQty": 19,
+      "minStockAlert": 5,
+      "location": "Rack C-1",
+      "warrantyMonths": 15
+    },
+    {
+      "id": "prod-volta-v150",
+      "sku": "VLT-150",
+      "name": "Volta V-150 UPS Inverter",
+      "brand": "Volta",
+      "category": "UPS / Inverter",
+      "voltage": "12V",
+      "capacityAh": 150,
+      "purchasePrice": 28000,
+      "salePrice": 32000,
+      "stockQty": 11,
+      "minStockAlert": 4,
+      "location": "Rack C-2",
+      "warrantyMonths": 12
+    }
+  ],
+  "parties": [
+    {
+      "id": "party-alfatah",
+      "name": "Al-Fatah Solar & Autos",
+      "phone": "0321-4410892",
+      "area": "Gulberg III, Lahore",
+      "role": "CUSTOMER",
+      "balance": 83700,
+      "notes": "Regular solar installer. Pays 10% booking and clears rest in 10 days.",
+      "createdAt": "2026-11-20T09:00:00.000Z"
+    },
+    {
+      "id": "party-kashif",
+      "name": "Kashif Transport Co.",
+      "phone": "0333-8912340",
+      "area": "Badami Bagh, Lahore",
+      "role": "CUSTOMER",
+      "balance": 26800,
+      "notes": "Fleet truck batteries customer.",
+      "createdAt": "2026-11-20T11:30:00.000Z"
+    },
+    {
+      "id": "party-bilal",
+      "name": "Bilal Electronics & UPS",
+      "phone": "0345-7712004",
+      "area": "Model Town Link Road",
+      "role": "CUSTOMER",
+      "balance": 0,
+      "notes": "Cash / EasyPaisa buyer.",
+      "createdAt": "2026-11-22T10:00:00.000Z"
+    },
+    {
+      "id": "party-exide-dist",
+      "name": "Exide Regional Distributor",
+      "phone": "042-37159020",
+      "area": "Sundar Industrial Estate",
+      "role": "SUPPLIER",
+      "balance": -166000,
+      "notes": "Primary Exide & Tubular supplier.",
+      "createdAt": "2026-11-20T08:00:00.000Z"
+    },
+    {
+      "id": "party-usman-scrap",
+      "name": "Usman Scrap & Lead Traders",
+      "phone": "0301-6620194",
+      "area": "Misri Shah, Lahore",
+      "role": "BOTH",
+      "balance": -32000,
+      "notes": "Supplies bulk dead lead-acid batteries by weight (kg).",
+      "createdAt": "2026-11-22T15:00:00.000Z"
+    }
+  ],
+  "accounts": [
+    {
+      "id": "acc-cash",
+      "name": "Cash Counter (Galla)",
+      "type": "CASH",
+      "accountNumber": "Shop Drawer #1",
+      "balance": 148300
+    },
+    {
+      "id": "acc-meezan",
+      "name": "Meezan Bank",
+      "type": "BANK",
+      "accountNumber": "PK42MEZN0002810104492",
+      "balance": 485000
+    },
+    {
+      "id": "acc-hbl",
+      "name": "HBL Business",
+      "type": "BANK",
+      "accountNumber": "PK18HABB0009147900112",
+      "balance": 210000
+    },
+    {
+      "id": "acc-easypaisa",
+      "name": "EasyPaisa",
+      "type": "WALLET",
+      "accountNumber": "0300-4829150",
+      "balance": 64500
+    },
+    {
+      "id": "acc-jazzcash",
+      "name": "JazzCash",
+      "type": "WALLET",
+      "accountNumber": "0300-4829150",
+      "balance": 38200
+    }
+  ],
+  "invoices": [
+    {
+      "id": "inv-seed-1",
+      "invoiceNo": "INV-2026-1003",
+      "type": "SALE_OUT",
+      "date": "2026-11-25",
+      "createdAt": "2026-11-25T10:15:00.000Z",
+      "partyId": "party-alfatah",
+      "partyName": "Al-Fatah Solar & Autos",
+      "items": [
+        {
+          "productId": "prod-exide-tr1800",
+          "sku": "EX-TR1800",
+          "productName": "Exide TR-1800 Tubular Solar",
+          "qty": 2,
+          "unitPrice": 46500,
+          "lineTotal": 93000
+        }
+      ],
+      "subtotal": 93000,
+      "discount": 0,
+      "totalAmount": 93000,
+      "paidAmount": 9300,
+      "remainingAmount": 83700,
+      "paymentPercent": 10,
+      "status": "PARTIAL",
+      "accountId": "acc-cash",
+      "dueDate": "2026-12-05",
+      "notes": "10% payment jama karwai, baqiya 90% 10 din baad dene ka bola hai."
+    },
+    {
+      "id": "inv-seed-2",
+      "invoiceNo": "INV-2026-1002",
+      "type": "SALE_OUT",
+      "date": "2026-11-25",
+      "createdAt": "2026-11-25T12:40:00.000Z",
+      "partyId": "party-bilal",
+      "partyName": "Bilal Electronics & UPS",
+      "items": [
+        {
+          "productId": "prod-volta-v150",
+          "sku": "VLT-150",
+          "productName": "Volta V-150 UPS Inverter",
+          "qty": 1,
+          "unitPrice": 32000,
+          "lineTotal": 32000
+        }
+      ],
+      "subtotal": 32000,
+      "discount": 0,
+      "totalAmount": 32000,
+      "paidAmount": 32000,
+      "remainingAmount": 0,
+      "paymentPercent": 100,
+      "status": "PAID",
+      "accountId": "acc-easypaisa",
+      "notes": "Full payment received via EasyPaisa."
+    },
+    {
+      "id": "inv-seed-3",
+      "invoiceNo": "INV-2026-1001",
+      "type": "SALE_OUT",
+      "date": "2026-11-24",
+      "createdAt": "2026-11-24T16:20:00.000Z",
+      "partyId": "party-kashif",
+      "partyName": "Kashif Transport Co.",
+      "items": [
+        {
+          "productId": "prod-ags-gx135",
+          "sku": "AGS-GX135",
+          "productName": "AGS GX-135 Heavy Duty",
+          "qty": 2,
+          "unitPrice": 26800,
+          "lineTotal": 53600
+        }
+      ],
+      "subtotal": 53600,
+      "discount": 0,
+      "totalAmount": 53600,
+      "paidAmount": 26800,
+      "remainingAmount": 26800,
+      "paymentPercent": 50,
+      "status": "PARTIAL",
+      "accountId": "acc-meezan",
+      "dueDate": "2026-12-05",
+      "notes": "50% Meezan transfer, 50% udhaar."
+    },
+    {
+      "id": "inv-seed-4",
+      "invoiceNo": "INV-2026-1000",
+      "type": "SALE_OUT",
+      "date": "2026-11-20",
+      "createdAt": "2026-11-20T14:10:00.000Z",
+      "partyId": "party-alfatah",
+      "partyName": "Al-Fatah Solar & Autos",
+      "items": [
+        {
+          "productId": "prod-phx-tx2500",
+          "sku": "PHX-TX2500",
+          "productName": "Phoenix TX-2500 Tall Tubular",
+          "qty": 2,
+          "unitPrice": 54000,
+          "lineTotal": 108000
+        }
+      ],
+      "subtotal": 108000,
+      "discount": 2000,
+      "totalAmount": 106000,
+      "paidAmount": 106000,
+      "remainingAmount": 0,
+      "paymentPercent": 100,
+      "status": "PAID",
+      "accountId": "acc-meezan",
+      "notes": "Previous order fully cleared."
+    },
+    {
+      "id": "inv-seed-5",
+      "invoiceNo": "PUR-2026-1001",
+      "type": "PURCHASE_IN",
+      "date": "2026-11-22",
+      "createdAt": "2026-11-22T11:00:00.000Z",
+      "partyId": "party-exide-dist",
+      "partyName": "Exide Regional Distributor",
+      "items": [
+        {
+          "productId": "prod-exide-tr1800",
+          "sku": "EX-TR1800",
+          "productName": "Exide TR-1800 Tubular Solar",
+          "qty": 8,
+          "unitPrice": 41500,
+          "lineTotal": 332000
+        }
+      ],
+      "subtotal": 332000,
+      "discount": 0,
+      "totalAmount": 332000,
+      "paidAmount": 166000,
+      "remainingAmount": 166000,
+      "paymentPercent": 50,
+      "status": "PARTIAL",
+      "accountId": "acc-meezan",
+      "dueDate": "2026-12-05",
+      "notes": "50% paid via Meezan Bank, 50% payable to Exide Distributor."
+    }
+  ],
+  "stockMovements": [
+    {
+      "id": "mov-seed-1",
+      "date": "2026-11-25",
+      "createdAt": "2026-11-25T10:15:00.000Z",
+      "productId": "prod-exide-tr1800",
+      "productName": "Exide TR-1800 Tubular Solar",
+      "type": "OUT",
+      "qtyChange": -2,
+      "resultingQty": 14,
+      "referenceType": "INVOICE",
+      "referenceId": "inv-seed-1",
+      "note": "INV-2026-1003 · Sold to Al-Fatah Solar & Autos"
+    },
+    {
+      "id": "mov-seed-2",
+      "date": "2026-11-25",
+      "createdAt": "2026-11-25T12:40:00.000Z",
+      "productId": "prod-volta-v150",
+      "productName": "Volta V-150 UPS Inverter",
+      "type": "OUT",
+      "qtyChange": -1,
+      "resultingQty": 11,
+      "referenceType": "INVOICE",
+      "referenceId": "inv-seed-2",
+      "note": "INV-2026-1002 · Sold to Bilal Electronics & UPS"
+    },
+    {
+      "id": "mov-seed-3",
+      "date": "2026-11-22",
+      "createdAt": "2026-11-22T11:00:00.000Z",
+      "productId": "prod-exide-tr1800",
+      "productName": "Exide TR-1800 Tubular Solar",
+      "type": "IN",
+      "qtyChange": 8,
+      "resultingQty": 16,
+      "referenceType": "INVOICE",
+      "referenceId": "inv-seed-5",
+      "note": "PUR-2026-1001 · Purchased from Exide Regional Distributor"
+    }
+  ],
+  "cashTransactions": [
+    {
+      "id": "tx-seed-1",
+      "date": "2026-11-25",
+      "createdAt": "2026-11-25T10:15:00.000Z",
+      "direction": "IN",
+      "accountId": "acc-cash",
+      "amount": 9300,
+      "partyId": "party-alfatah",
+      "partyName": "Al-Fatah Solar & Autos",
+      "category": "SALE_RECEIPT",
+      "referenceId": "inv-seed-1",
+      "note": "INV-2026-1003 (10% received, Rs. 83,700 udhaar)"
+    },
+    {
+      "id": "tx-seed-2",
+      "date": "2026-11-25",
+      "createdAt": "2026-11-25T12:40:00.000Z",
+      "direction": "IN",
+      "accountId": "acc-easypaisa",
+      "amount": 32000,
+      "partyId": "party-bilal",
+      "partyName": "Bilal Electronics & UPS",
+      "category": "SALE_RECEIPT",
+      "referenceId": "inv-seed-2",
+      "note": "INV-2026-1002 (100% received)"
+    },
+    {
+      "id": "tx-seed-3",
+      "date": "2026-11-25",
+      "createdAt": "2026-11-25T14:05:00.000Z",
+      "direction": "OUT",
+      "accountId": "acc-cash",
+      "amount": 34850,
+      "partyName": "Walk-in Mechanic (Tariq)",
+      "category": "SCRAP_BUY",
+      "referenceId": "scr-seed-1",
+      "note": "SCR-1001 · Dead Car Lead-Acid Battery Scrap (85 kg @ Rs. 410/kg)"
+    },
+    {
+      "id": "tx-seed-4",
+      "date": "2026-11-24",
+      "createdAt": "2026-11-24T16:20:00.000Z",
+      "direction": "IN",
+      "accountId": "acc-meezan",
+      "amount": 26800,
+      "partyId": "party-kashif",
+      "partyName": "Kashif Transport Co.",
+      "category": "SALE_RECEIPT",
+      "referenceId": "inv-seed-3",
+      "note": "INV-2026-1001 (50% received, Rs. 26,800 udhaar)"
+    },
+    {
+      "id": "tx-seed-5",
+      "date": "2026-11-22",
+      "createdAt": "2026-11-22T11:00:00.000Z",
+      "direction": "OUT",
+      "accountId": "acc-meezan",
+      "amount": 166000,
+      "partyId": "party-exide-dist",
+      "partyName": "Exide Regional Distributor",
+      "category": "PURCHASE_PAYMENT",
+      "referenceId": "inv-seed-5",
+      "note": "PUR-2026-1001 (50% paid, Rs. 166,000 payable)"
+    }
+  ],
+  "scrapPurchases": [
+    {
+      "id": "scr-seed-1",
+      "receiptNo": "SCR-1001",
+      "date": "2026-11-25",
+      "createdAt": "2026-11-25T14:05:00.000Z",
+      "scrapName": "Dead Car Lead-Acid Battery Scrap",
+      "weightKg": 85,
+      "pieceCount": 6,
+      "ratePerKg": 410,
+      "totalAmount": 34850,
+      "paidAmount": 34850,
+      "remainingAmount": 0,
+      "status": "PAID",
+      "sellerName": "Walk-in Mechanic (Tariq)",
+      "accountId": "acc-cash",
+      "notes": "6 old 12V car batteries weighed on digital scale."
+    },
+    {
+      "id": "scr-seed-2",
+      "receiptNo": "SCR-1002",
+      "date": "2026-11-24",
+      "createdAt": "2026-11-24T17:15:00.000Z",
+      "scrapName": "Old Tubular Plate Scrap",
+      "weightKg": 160,
+      "pieceCount": 4,
+      "ratePerKg": 450,
+      "totalAmount": 72000,
+      "paidAmount": 40000,
+      "remainingAmount": 32000,
+      "status": "PARTIAL",
+      "partyId": "party-usman-scrap",
+      "sellerName": "Usman Scrap & Lead Traders",
+      "accountId": "acc-cash",
+      "notes": "40,000 paid cash, 32,000 payable to Usman Scrap."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "VoltKhata — Battery & Scrap Business ERP",
+  "description": "Desktop inventory, invoicing, party khata, partial payment tracking, account balances, day-end hisaab, and scrap weight management software for battery dealers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
